@@ -7,6 +7,11 @@ $navbar-toggler-focus-width: 0;
   outline: none;
 }
 
+p.lead,
+.btn-lg {
+  font-size: 1.125rem !important;
+}
+
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
