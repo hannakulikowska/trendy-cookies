@@ -1,0 +1,12 @@
+$font-family-base: Steppe-Book, sans-serif;
+$primary: #5243f4;
+$navbar-light-icon-color: #fff;
+$navbar-toggler-focus-width: 0;
+
+.navbar-toggler:focus-visible {
+  outline: none;
+}
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
