@@ -5,7 +5,7 @@ const Hero = () => {
     <section
       className="position-relative bg-primary d-flex align-items-md-center"
       style={{ minHeight: '656px' }}>
-      <Container className="z-1 position-relative">
+      <Container className="z-3 position-relative">
         <div className="row flex-lg-row align-items-center py-5">
           <div className="col-lg-8">
             <h1 className="display-1 fw-bold lh-1 mb-5 text-light">
@@ -24,7 +24,7 @@ const Hero = () => {
       </Container>
       <img
         src="/src/assets/images/cookie.png"
-        className="position-absolute z-0 end-0 bottom-0 img-fluid"
+        className="position-absolute z-2 end-0 bottom-0 img-fluid"
         alt="Cookie"
         width="700"
         height="500"
